@@ -1,19 +1,17 @@
 site:
-  title: 'Cecil'
-  baseline: "Your blog's butler."
+  title: 'KESCA'
+  baseline: "KESCA"
   baseurl: '/'
   canonicalurl: true
-  description: "Your blog's butler, powered by PHPoole."
+  description: "KESCA"
   paginate:
     max: 5
     path: 'page'
   date:
     format: 'j F Y'
-    timezone: 'Europe/Paris'
-  netlify:
-    cms:
-      path: 'admin'
-      version: 'latest'
-    identity:
-      version: 'v1'
+    timezone: 'Europe/London'
 theme: 'hyde'
+  fmpages:
+    404:
+      layout: index.html.twig
+      permalink: 404.html
