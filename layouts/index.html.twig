@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 {% include 'include/head.html.twig' %}
 <style>
-.container  {
-  margin: 0 auto;
-  width: 50%;
-  text-align: center;
+.center-on-page  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 </style>
   <body class="sans-serif near-black">
-    <div class="container">
+    <div class="center-on-page">
       <img src="{{url('images/logo.png')}}" alt="Logo" width="256px">
       <h2 class="f3">KESCA is under construction</h2>
     </div>
