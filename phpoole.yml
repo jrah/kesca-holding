@@ -4,6 +4,10 @@ site:
   baseurl: '/'
   canonicalurl: true
   description: "KESCA"
+  fmpages:
+    404:
+      layout: index.html.twig
+      permalink: 404.html
   paginate:
     max: 5
     path: 'page'
@@ -11,7 +15,3 @@ site:
     format: 'j F Y'
     timezone: 'Europe/London'
 theme: 'hyde'
-  fmpages:
-    404:
-      layout: index.html.twig
-      permalink: 404.html
